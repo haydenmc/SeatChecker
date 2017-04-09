@@ -11,7 +11,7 @@ SeatChecker is a quick .NET Core program used to query the [Purdue.io API](https
 - `MyPurdueUser`: MyPurdue username
 - `MyPurduePass`: MyPurdue password
 - `CheckIntervalSeconds`: Number of seconds between queries for seat count
-- `TermCode`: MyPurdue term code for the term in which to query CRNs (e.g. 201710 for Fall 2016)
+- `TermCode`: MyPurdue term code for the term in which to query CRNs (e.g. 201710 for Fall 2016). You can [query Purdue.io for term codes](https://api.purdue.io/odata/Terms).
 - `Crns`: An array of CRNs to check
 
 ## Next Steps...
